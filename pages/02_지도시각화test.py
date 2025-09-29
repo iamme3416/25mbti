@@ -6,7 +6,7 @@ import plotly.express as px
 # 데이터 불러오기
 @st.cache_data
 def load_data():
-    return pd.read_csv("your_data.csv")  # 파일명 변경 필요
+    return pd.read_csv("countriesMBTI_16types.csv")  # 파일명 변경 필요
 
 df = load_data()
 
