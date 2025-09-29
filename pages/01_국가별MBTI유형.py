@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -38,4 +37,3 @@ st.plotly_chart(fig, use_container_width=True)
 # 비율도 표로 보여주기
 st.write("🔍 세부 비율 데이터")
 st.dataframe(country_data.reset_index().rename(columns={"index":"MBTI 유형", 0:"비율"}))
-```
