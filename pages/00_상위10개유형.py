@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import altair as alt
@@ -50,4 +49,3 @@ st.altair_chart(chart + text, use_container_width=True)
 # 데이터 테이블 표시
 st.write("📋 데이터 확인")
 st.dataframe(top10.reset_index(drop=True))
-```
